@@ -1,0 +1,1783 @@
+[ 2017-04-25T19:29:52+08:00 ] 127.0.0.1 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001567s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001613s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007446s ]
+
+[ 2017-04-25T19:29:56+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '123' AND `apass` = '123' LIMIT 1   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-04-25T19:29:58+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011473s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000521s ]
+
+[ 2017-04-25T19:30:00+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0062s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-04-25T19:30:02+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2017-04-25T19:30:03+08:00 ] 127.0.0.1 /index.php/Admin/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004419s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-04-25T19:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0068s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html?pid=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `page` WHERE `pid` = 52 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:06+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0074s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:30:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0078s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014558s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000769s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:31:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0072s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015825s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-04-25T19:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:20+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:21+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0087s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/module.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001136s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/hotkeys.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/uploader.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/scripts/simditor.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:36+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0081s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-04-25T19:33:36+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:38+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0085s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-04-25T19:33:38+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:47+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:33:49+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/styles/simditor/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0153s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:34:21+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-04-25T19:34:23+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/styles/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2017-04-25T19:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/styles/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:34:29+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-04-25T19:34:29+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/styles/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:34:32+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Public/simditor/styles/simditor.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:Public
+
+[ 2017-04-25T19:34:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0099s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000634s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-04-25T19:34:54+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2017-04-25T19:34:55+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0103s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000451s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-04-25T19:35:08+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000471s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2017-04-25T19:35:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-04-25T19:35:26+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013988s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-04-25T19:35:28+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0064s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000654s ]
+
+[ 2017-04-25T19:35:56+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2017-04-25T19:35:57+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0118s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2017-04-25T19:35:58+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0077s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-04-25T19:36:12+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0083s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-25T19:36:13+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-04-25T19:36:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004998s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-04-25T19:37:11+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-25T19:37:12+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2017-04-25T19:37:36+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0067s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-04-25T19:37:37+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000734s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-04-25T19:43:34+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+
+[ 2017-04-25T19:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016256s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2017-04-25T19:44:47+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+ERR: 非法操作:upload
+
+[ 2017-04-25T19:44:49+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+
+[ 2017-04-25T19:45:56+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0068s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2017-04-25T19:45:58+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-04-25T19:45:59+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0088s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000479s ]
+
+[ 2017-04-25T19:46:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0286s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+ERR: 非法操作:upload
+
+[ 2017-04-25T19:46:23+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+
+[ 2017-04-25T19:48:24+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-04-25T19:48:38+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0008s ]
+ERR: 非法操作:upload
+
+[ 2017-04-25T19:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+
+[ 2017-04-25T19:49:11+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-04-25T19:50:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-04-25T19:59:48+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000692s ]
+
+[ 2017-04-25T19:59:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2017-04-25T19:59:55+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+
+[ 2017-04-25T20:02:51+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-04-25T20:02:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2017-04-25T20:02:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+
+[ 2017-04-25T20:02:58+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+
+[ 2017-04-25T20:04:52+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0203s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2017-04-25T20:04:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+
+[ 2017-04-25T20:04:53+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+
+[ 2017-04-25T20:04:55+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-04-25T20:13:25+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001853s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0202s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001428s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001701s ]
+
+[ 2017-04-25T20:13:27+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2017-04-25T20:13:27+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+
+[ 2017-04-25T20:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-04-25T20:18:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:18:22+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3e8eba347.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001357s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0002s ]
+ERR: 非法操作:Uploads
+
+[ 2017-04-25T20:20:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:20:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3efec82c7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+
+[ 2017-04-25T20:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Blog/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-04-25T20:20:34+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:20:34+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3f124c42e.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000319s ]
+
+[ 2017-04-25T20:23:33+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001480s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:23:34+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-04-25T20:23:37+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-04-25T20:24:18+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:24:18+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3ff2083c2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-04-25T20:26:25+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+
+[ 2017-04-25T20:26:25+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3ff2083c2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-04-25T20:26:30+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3ff2083c2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+
+[ 2017-04-25T20:26:39+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-04-25T20:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff3ff2083c2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+
+[ 2017-04-25T20:28:31+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004232s ]
+
+[ 2017-04-25T20:28:33+08:00 ] 127.0.0.1 /index.php/Admin/Blog/images/image.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2017-04-25T20:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Blog/upload.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\web-php\tpblog\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2017-04-25T20:28:59+08:00 ] 127.0.0.1 /index.php/Admin/Blog/Uploads/2017-04-25/58ff410b47cae.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+

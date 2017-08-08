@@ -1,0 +1,45 @@
+[ 2017-04-24T21:35:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `setting` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `key` FROM `setting` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `setting` WHERE `sid` = 1  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000717s ]
+
+[ 2017-04-24T21:35:21+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `setting` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `key` FROM `setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `setting` WHERE `sid` = 1  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2017-04-24T21:39:57+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `setting` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `key` FROM `setting` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `setting` WHERE `sid` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+

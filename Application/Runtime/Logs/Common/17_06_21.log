@@ -1,0 +1,18 @@
+[ 2017-06-21T14:41:21+08:00 ] 127.0.0.1 /__ROOT__%20/thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+ERR: 无法加载模块:__ROOT__
+
+[ 2017-06-21T14:41:21+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-06-21T14:43:33+08:00 ] 127.0.0.1 /__ROOT__%20/thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+ERR: 无法加载模块:__ROOT__
+

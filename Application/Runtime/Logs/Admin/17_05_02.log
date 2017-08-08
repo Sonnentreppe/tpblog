@@ -1,0 +1,125 @@
+[ 2017-05-02T19:21:43+08:00 ] 127.0.0.1 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013030s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.109122s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010199s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010263s ]
+
+[ 2017-05-02T20:23:05+08:00 ] 127.0.0.1 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000907s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2017-05-02T20:48:39+08:00 ] 127.0.0.1 /Admin/Login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006882s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000583s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-05-02T20:48:46+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '123' AND `apass` = '123' LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+
+[ 2017-05-02T20:48:48+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019118s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2017-05-02T20:53:59+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 7 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+

@@ -1,0 +1,15 @@
+[ 2017-04-19T18:13:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015771s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `setting` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `key` FROM `setting` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `setting` WHERE `sid` = 1  [ RunTime:0.0027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010080s ]
+

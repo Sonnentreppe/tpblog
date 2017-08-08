@@ -1,0 +1,141 @@
+[ 2017-05-07T14:51:50+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014203s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0214s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007355s ]
+
+[ 2017-05-07T14:51:55+08:00 ] 127.0.0.1 /index.php/Home/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: master C:\web-php\tpblog\Application\Runtime\Cache\Home\5a14ba2eb04dc55923ba6a64ecba9c45.php 第 19 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2017-05-07T14:52:00+08:00 ] 127.0.0.1 /index.php/Home/Login/index/do/chk.html?mid=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+SQL: SHOW COLUMNS FROM `tb_master` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `tb_master` WHERE `master_name` = '123' AND `master_password` = '123' LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+
+[ 2017-05-07T14:52:02+08:00 ] 127.0.0.1 /Home/Login/master
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `tb_master` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `tb_master` WHERE `mid` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: blog C:\web-php\tpblog\Application\Runtime\Cache\Home\6f3e1dc55927a4cd3b0148230fa4343d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-05-07T14:52:36+08:00 ] 127.0.0.1 /index.php/Home/Login/save.html?master_name=123
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: auto C:\web-php\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `page` (`title`,`author`,`content`,`uptime`) VALUES ('2017','123','&lt;p&gt;阿飞&lt;/p&gt;','1494139956') [ RunTime:0.0045s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2017-05-07T14:52:37+08:00 ] 127.0.0.1 /Home/Index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-05-07T14:52:37+08:00 ] 127.0.0.1 /Home/__ROOT__%20/thumb.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+

@@ -1,0 +1,2318 @@
+[ 2017-08-04T22:02:56+08:00 ] 127.0.0.1 /index.php/Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2017-08-04T22:03:04+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0281s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '123' AND `apass` = '123' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001281s ]
+
+[ 2017-08-04T22:03:07+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2017-08-04T22:03:09+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003044s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000400s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042448s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042494s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002062s ]
+
+[ 2017-08-04T22:04:34+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2017-08-04T22:04:35+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0191s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 26 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011786s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000693s ]
+
+[ 2017-08-04T22:05:03+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012471s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000738s ]
+
+[ 2017-08-04T22:05:43+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002461s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2017-08-04T22:05:44+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-08-04T22:05:45+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0002s ]
+ERR: 模板不存在:./Application/Admin/View/Ms/index.php
+
+[ 2017-08-04T22:06:12+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0165s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2017-08-04T22:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2017-08-04T22:06:14+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001948s ]
+
+[ 2017-08-04T22:06:15+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0529s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0462s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024715s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-08-04T22:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2017-08-04T22:06:18+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012295s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000789s ]
+
+[ 2017-08-04T22:06:19+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002031s ]
+
+[ 2017-08-04T22:06:19+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0143s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2017-08-04T22:06:20+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003100s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0348s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0317s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000237s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000643s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-08-04T22:06:20+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2017-08-04T22:06:41+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+ERR: 1146:Table 'tpblog.m_s' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_s`
+ERR: 1146:Table 'tpblog.m_s' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `m_s`
+
+[ 2017-08-04T22:06:53+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0013s ]
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+
+[ 2017-08-04T22:07:17+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0127s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+
+[ 2017-08-04T22:07:55+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+
+[ 2017-08-04T22:07:56+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0252s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+ERR: 1054:Unknown column 'pid' in 'order clause'
+ [ SQL语句 ] : SELECT * FROM `ms` ORDER BY pid desc LIMIT 0,10  
+
+[ 2017-08-04T22:08:55+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0136s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003641s ]
+
+[ 2017-08-04T22:08:57+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0132s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined variable: blogs C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 28 行.
+NOTIC: [2] Invalid argument supplied for foreach() C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 28 行.
+NOTIC: [8] Undefined variable: show C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 45 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-04T22:12:10+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003239s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined variable: show C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006015s ]
+
+[ 2017-08-04T22:13:07+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined variable: show C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-08-04T22:13:48+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-08-04T22:13:50+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0114s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003939s ]
+
+[ 2017-08-04T22:13:52+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0140s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 37 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-08-04T22:14:15+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+NOTIC: [8] Undefined index: pid C:\web-php\tpblog\Application\Runtime\Cache\Admin\6ea230747320c3c610c3efa2ee305767.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-08-04T22:15:37+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0151s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-08-04T22:15:38+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0234s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-04T22:15:39+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0238s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0153s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012634s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000671s ]
+
+[ 2017-08-04T22:15:40+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000310s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0247s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000403s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003173s ]
+
+[ 2017-08-04T22:15:41+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002438s ]
+
+[ 2017-08-04T22:15:43+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0179s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000543s ]
+
+[ 2017-08-04T22:15:45+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0306s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020950s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-08-04T22:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0134s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0003s ]
+
+[ 2017-08-04T22:16:04+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2017-08-04T22:16:07+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001201s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2017-08-04T22:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0189s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0015s ]
+
+[ 2017-08-04T22:16:13+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0122s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-08-04T22:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0300s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0003s ]
+
+[ 2017-08-04T22:16:18+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0129s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2017-08-04T22:16:39+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0261s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0246s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2017-08-04T22:16:42+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002105s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0391s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0210s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0003s ]
+
+[ 2017-08-04T22:16:42+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0053s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007019s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001995s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002026s ]
+
+[ 2017-08-04T22:16:44+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0462s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.1761s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0012s ]
+
+[ 2017-08-04T22:16:44+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0207s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-08-04T22:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?pid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002627s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0150s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 0 [ RunTime:0.0004s ]
+
+[ 2017-08-04T22:17:42+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0138s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-08-04T22:17:43+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0131s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011382s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-04T22:17:49+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006801s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006920s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002231s ]
+
+[ 2017-08-04T22:17:52+08:00 ] 127.0.0.1 /index.php/Admin/Ms/delete.html?mid=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0134s ]
+SQL: DELETE FROM `ms` WHERE `mid` = 26 [ RunTime:0.0054s ]
+
+[ 2017-08-04T22:17:52+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000625s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-08-04T22:17:54+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0223s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0150s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2017-08-04T22:17:55+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015239s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004326s ]
+
+[ 2017-08-04T22:17:55+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001742s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2017-08-04T22:17:56+08:00 ] 127.0.0.1 /index.php/Admin/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2017-08-04T22:18:16+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003099s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0208s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002778s ]
+
+[ 2017-08-04T22:18:17+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000471s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002681s ]
+
+[ 2017-08-04T22:18:19+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002119s ]
+
+[ 2017-08-04T22:18:20+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001076s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2017-08-04T22:18:23+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010555s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2017-08-04T22:18:25+08:00 ] 127.0.0.1 /index.php/Admin/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024735s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000578s ]
+
+[ 2017-08-04T22:18:26+08:00 ] 127.0.0.1 /Admin/Login/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-08-04T23:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-08-04T23:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000935s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000742s ]
+
+[ 2017-08-04T23:01:13+08:00 ] 127.0.0.1 /index.php/Admin/Login/index/do/chk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `auser` = '123' AND `apass` = '123' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005741s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+
+[ 2017-08-04T23:01:16+08:00 ] 127.0.0.1 /Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-08-04T23:01:17+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-04T23:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013398s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-04T23:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2017-08-04T23:05:59+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0078s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000463s ]
+
+[ 2017-08-04T23:06:00+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-04T23:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000047s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2017-08-04T23:06:01+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-08-04T23:06:07+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2017-08-04T23:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-04T23:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Ms/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006145s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000480s ]
+
+[ 2017-08-04T23:06:16+08:00 ] 127.0.0.1 /index.php/Admin/Setting/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012405s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-08-04T23:06:31+08:00 ] 127.0.0.1 /index.php/Admin/Auser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-04T23:06:35+08:00 ] 127.0.0.1 /index.php/Admin/Auser/delete.html?aid=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `admin` WHERE `aid` = 10 [ RunTime:0.0036s ]
+
+[ 2017-08-04T23:06:36+08:00 ] 127.0.0.1 /index.php/Admin/Auser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-08-04T23:06:37+08:00 ] 127.0.0.1 /index.php/Admin/Auser/delete.html?aid=7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `admin` WHERE `aid` = 7 [ RunTime:0.0050s ]
+
+[ 2017-08-04T23:06:37+08:00 ] 127.0.0.1 /index.php/Admin/Auser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-04T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Auser/delete.html?aid=6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: DELETE FROM `admin` WHERE `aid` = 6 [ RunTime:0.0038s ]
+
+[ 2017-08-04T23:06:38+08:00 ] 127.0.0.1 /index.php/Admin/Auser.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `admin` WHERE `aid` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [8] Undefined variable: session C:\web-php\tpblog\Application\Admin\View\nav.php 第 27 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+

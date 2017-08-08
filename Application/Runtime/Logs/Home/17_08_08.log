@@ -1,0 +1,1833 @@
+[ 2017-08-08T20:16:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015370s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0242s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0202s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0027s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.140654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013040s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014624s ]
+
+[ 2017-08-08T20:16:26+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034371s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034425s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000656s ]
+
+[ 2017-08-08T20:17:24+08:00 ] 127.0.0.1 /index.php/Home/Ms/msadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-08-08T20:31:52+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000088s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001696s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0133s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2017-08-08T20:32:59+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2017-08-08T20:53:15+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0192s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+
+[ 2017-08-08T20:54:23+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-08-08T20:54:24+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+
+[ 2017-08-08T20:56:01+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0273s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0251s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051432s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2017-08-08T20:56:44+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001162s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0146s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2017-08-08T20:57:15+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0184s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000860s ]
+
+[ 2017-08-08T20:57:23+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0201s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0158s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-08-08T20:57:31+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0200s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012154s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000955s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001592s ]
+
+[ 2017-08-08T20:57:34+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0135s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-08-08T21:03:32+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001068s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2017-08-08T21:03:37+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001233s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012021s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-08-08T21:06:16+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015464s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008749s ]
+
+[ 2017-08-08T21:06:21+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0080s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005874s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005930s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2017-08-08T21:06:24+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0092s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-08-08T21:07:43+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020256s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000551s ]
+
+[ 2017-08-08T21:07:46+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0071s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2017-08-08T21:08:43+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024538s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-08-08T21:08:46+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-08T21:10:08+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0236s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0232s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2017-08-08T21:10:47+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0106s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+NOTIC: [8] Undefined variable: Massgae C:\web-php\tpblog\Application\Runtime\Cache\Home\89dd361e36a9b43a7e638ab6f5e83603.php 第 31 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023305s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000587s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-08-08T21:11:34+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0168s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019530s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019582s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2017-08-08T21:11:41+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0115s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-08-08T21:12:06+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0149s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019552s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000468s ]
+
+[ 2017-08-08T21:12:21+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0075s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005185s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2017-08-08T21:12:41+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0118s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2017-08-08T21:14:52+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000610s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2017-08-08T21:16:13+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014933s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010204s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010260s ]
+
+[ 2017-08-08T21:16:16+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0086s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005405s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-08-08T21:17:32+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000116s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001327s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-08-08T21:17:35+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0098s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2017-08-08T21:17:42+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2017-08-08T21:19:30+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2017-08-08T21:19:40+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007464s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-08-08T21:23:04+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-08-08T21:23:17+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021262s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-08-08T21:23:36+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0077s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2017-08-08T21:23:52+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0120s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021311s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2017-08-08T21:23:56+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2017-08-08T21:23:59+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2017-08-08T21:24:23+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008992s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2017-08-08T21:24:28+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0112s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2017-08-08T21:24:29+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0096s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2017-08-08T21:24:40+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0102s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006481s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-08-08T21:24:40+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005283s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-08-08T21:24:45+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0094s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000545s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2017-08-08T21:24:46+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0101s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007064s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2017-08-08T21:32:19+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0139s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002244s ]
+
+[ 2017-08-08T21:33:07+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038575s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-08-08T21:33:08+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0076s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013327s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-08-08T21:33:10+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0091s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2017-08-08T21:33:13+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0084s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 10,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010139s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010248s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001371s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-08-08T21:33:15+08:00 ] 127.0.0.1 /index.php/Home/Ms/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0173s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2017-08-08T21:33:20+08:00 ] 127.0.0.1 /index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001843s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0256s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0180s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000768s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000800s ]
+
+[ 2017-08-08T21:34:32+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-08T21:34:36+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0157s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2017-08-08T21:34:52+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0147s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-08-08T21:36:01+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009905s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-08-08T21:37:06+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-08-08T21:37:09+08:00 ] 127.0.0.1 /index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2017-08-08T21:38:03+08:00 ] 127.0.0.1 /index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0107s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001109s ]
+
+[ 2017-08-08T21:38:04+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2017-08-08T21:39:12+08:00 ] 127.0.0.1 /index.php/Home/Ms.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0095s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2017-08-08T21:39:15+08:00 ] 127.0.0.1 /index.php/Home/Ms/msadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000671s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2017-08-08T21:40:28+08:00 ] 127.0.0.1 /index.php/Home/Ms/uploadImg/id/1.html?rndcode=1502199628665
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000335s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0139s ]
+SQL: SELECT MAX(mid) AS tp_max FROM `ms` LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] rmdir(Uploads/avatar/): Directory not empty C:\web-php\tpblog\Application\Home\Controller\MsController.class.php 第 82 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2017-08-08T21:40:29+08:00 ] 127.0.0.1 /index.php/Home/Ms/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: auto C:\web-php\tpblog\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `ms` (`name`,`address`,`content`) VALUES ('success test','tpblog.com','&lt;p&gt;&lt;a href=&quot;http://www.cnblogs.com/chinalorin/p/5855260.html&quot;&gt;&lt;span style=&quot;font-size: 21pt;&quot;&gt;thinkphp getField()&lt;/span&gt;&lt;span style=&quot;font-size: 21pt;&quot;&gt;获取一列或一个数据&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p&gt;在开发中经常要获取一个数据的情况，thinkphp中有一个getField()方法可以解决这个问题。&lt;/p&gt;&lt;p&gt;获取一个数据&lt;/p&gt;&lt;p&gt;    1  2      $user&amp;nbsp;=&amp;nbsp;M(\'demo\');  $data&amp;nbsp;=&amp;nbsp;$user-&amp;gt;getField(\'name\');//默认第一个，   &lt;br&gt;&lt;/p&gt;') [ RunTime:0.0038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-08-08T21:40:30+08:00 ] 127.0.0.1 /Home/Ms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `ms` [ RunTime:0.0074s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ms` LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `ms` ORDER BY mid desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000484s ]
+
+[ 2017-08-08T21:40:40+08:00 ] 127.0.0.1 /index.php/Home/Index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0072s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001282s ]
+
+[ 2017-08-08T21:42:13+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0088s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `page` LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `page` ORDER BY pid desc LIMIT 0,10   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-08-08T21:42:22+08:00 ] 127.0.0.1 /index.php/Home/Index/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0074s ]
+SQL: UPDATE `page` SET `zan`=zan+1 WHERE `pid` = 65 [ RunTime:0.0064s ]
+
+[ 2017-08-08T21:42:23+08:00 ] 127.0.0.1 /index.php/Home/Index/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0074s ]
+
+[ 2017-08-08T21:42:27+08:00 ] 127.0.0.1 /index.php/Home/Index/zan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `setting` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `setting`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0083s ]
+SQL: UPDATE `page` SET `zan`=zan+1 WHERE `pid` = 64 [ RunTime:0.0058s ]
+

@@ -1,0 +1,36 @@
+[ 2017-05-03T21:40:48+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-03T21:55:52+08:00 ] 127.0.0.1 /index.php/Uploads/master_photo/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-05-03T21:55:54+08:00 ] 127.0.0.1 /index.php/Uploads/master_photo/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-05-03T21:58:12+08:00 ] 127.0.0.1 /index.php/Uploads/master_photo/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-05-03T22:06:35+08:00 ] 127.0.0.1 /index.php/Uploads/master_photo/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-05-03T22:08:05+08:00 ] 127.0.0.1 /index.php/Uploads/master_photo/0.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+ERR: 无法加载模块:Uploads
+
