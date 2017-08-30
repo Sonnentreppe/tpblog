@@ -20,7 +20,7 @@
   <hr/>
 <div class="rows">
 
-  <form class="form-horizontal" action="<?php echo U('Admin/Blog/save')?>?pid=<?php echo $blog['pid'];?>" method="post">
+  <form class="form-horizontal" action="<?php echo U('/Admin/Blog/save')?>?pid=<?php echo $blog['pid'];?>" method="post">
       <div class="form-group">
       <label for="inputEmail3" class="col-sm-2 control-label">标题</label>
         <div class="col-sm-9">

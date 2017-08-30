@@ -33,7 +33,7 @@
     <div class="media">
         <div class="media-left">
           <a href="http://<?php echo $Massage['address'];?>">
-            <img class="media-object" src=" /Uploads/avatar/<?php echo $Massage['mid'];?>.jpg" alt="...">
+            <img class="media-object" src="/Uploads/avatar/<?php echo $Massage['mid'];?>.jpg" alt="...">
           </a>
         </div>
         <div class="media-body">

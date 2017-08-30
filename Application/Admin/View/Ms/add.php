@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
  <head>
-  <title>博客管理</title>
+  <title>留言管理</title>
   <link rel="stylesheet" href="__PUBLIC__/bootstrap/css/bootstrap.css"/>
   <script src="__PUBLIC__/js/jquery-3.2.0.min.js"></script>
   <script src="__PUBLIC__/bootstrap/js/bootstrap.js"></script>
@@ -15,7 +15,7 @@
 <body>
   <div class="container" >
    <?php include(THEME_PATH.'nav.php') ?>
-   <h1>博客添加 <small class='pull-right'>
+   <h1>留言添加 <small class='pull-right'>
      <a class='btn btn-default' href="<?php echo U("/Admin/Blog/index");?>">返回到列表</a></small></h1>
   <hr/>
 <div class="rows">

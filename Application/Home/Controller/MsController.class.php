@@ -2,6 +2,12 @@
 namespace Home\Controller;
 use Think\Controller;
 class MsController extends Controller {
+     function __construct(){
+       parent::__construct();
+       $session=session();
+       $this->assign("session",$session);
+
+     }
 
  function index(){
    $this->setting = D("Admin/Setting");
@@ -13,7 +19,6 @@ class MsController extends Controller {
                            //排序
         $Massages =$ms->order('mid desc')->limit($page->firstRow.','.$page->listRows)->select();
 
-
     $this->assign("msshow",$page->show());
     $this->assign("Massages",$Massages);
     $this->display();
@@ -24,6 +29,11 @@ class MsController extends Controller {
         $name = I("post.name");
         $address=I("post.address");
         $content=I("post.content");
+        session('name',$name);
+        session('address',$address);
+        session('content',$content);
+        $value=session();
+        var_dump($value);
         $rules=array(
           array('name','require','用户名不能为空'),
           array('address','require','博客地址名不能为空'),
@@ -31,6 +41,7 @@ class MsController extends Controller {
         );
         $ms=M("ms");
         if(!$ms->validate($rules)->create()){
+
           return $this->error($ms->getError(),"/Home/Ms/msadd");
         }else {
           $insert=array(
@@ -39,7 +50,10 @@ class MsController extends Controller {
             'content'=>$content,
           );
           $ms->add($insert);
-          return $this->success("提交成功","/Home/Ms");
+          session('name',null);
+          session('address',null);
+          session('content',null);
+          return $this->success("提交成功",__MODULE__."/Home/Ms");
         }
 
     }

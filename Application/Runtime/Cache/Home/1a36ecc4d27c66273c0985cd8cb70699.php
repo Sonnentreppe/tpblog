@@ -40,20 +40,20 @@
       <div class="form-group">
       <label for="inputEmail3" class="col-sm-2 control-label">name</label>
         <div class="col-sm-9">
-         <input type="text" class="form-control" name="name" value=''>
+         <input type="text" class="form-control" name="name" value='<?php echo $session['name'];?>'>
     </div>
 </div>
 
 <div class="form-group">
   <label for="inputEmail3" class="col-sm-2 control-label">blog address</label>
     <div class="col-sm-9">
-     <input type="text" class="form-control" name="address"value=''>
+     <input type="text" class="form-control" name="address"value='<?php echo $session['address'];?>'>
     </div>
   </div>
   <div class="form-group">
   <label for="inputEmail3" class="col-sm-2 control-label">Massage</label>
     <div class="col-sm-9">
-    <textarea id='content' style="height:400px" class="form-control" name="content"></textarea>
+    <textarea id='content' style="height:400px" class="form-control" name="content" value='<?php echo $session['content'];?>'></textarea>
     <script>
         var editor = new Simditor({
           textarea: $('#content'),

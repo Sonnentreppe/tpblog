@@ -14,14 +14,13 @@ class LoginController extends Controller {
            'auser' => $auser,
            'apass' => $apass,
         );
-           var_dump( $where);
+          
         $user = $admin->where($where)->find();
-        var_dump($user);
         if(!$user){
-          return $this->error("账号或密码错误","/Admin/Login");
+          return $this->error("账号或密码错误",__MODULE__.'/Login');
         }
         session("aid",$user['aid']);
-        return $this->success("登录成功","/Admin/Index/index");
+        return $this->success("登录成功",__MODULE__.'/Index/index');
       }
       $this->display();
     }

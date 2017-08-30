@@ -35,7 +35,7 @@
 
         </div>
             </div>
-            <div class="panel-footer">Panel footer</div>
+            <div class="panel-footer">版权归SONN所有</div>
           </div>
         </div>
 

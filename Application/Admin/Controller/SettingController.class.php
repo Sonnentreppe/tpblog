@@ -22,7 +22,7 @@ class SettingController extends AdmController{
  }
 
 
-$this->redirect("/Admin/Setting/index");
+$this->redirect("Admin/Setting/index");
     }
   }
 ?>

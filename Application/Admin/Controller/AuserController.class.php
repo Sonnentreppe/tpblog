@@ -47,14 +47,14 @@ class AuserController extends AdmController {
                    array('apass','require','密码不能为空'),
                 );
              if( !$admin->validate($rule)->create() ){
-                 return $this->error( $admin->getError(),"/Admin/Auser/add");
+                 return $this->error( $admin->getError(),__MODULE__."/Admin/Auser/add");
              }
            $where = array();
            $where['auser'] = $auser;
            $where['aid'] = array('NEQ',$aid);
            $isArr = $admin->where( $where)->find();
            if( $isArr){
-               return $this->error('用户名已存在',"/Admin/Auser/add");
+               return $this->error('用户名已存在',__MODULE__."/Admin/Auser/add");
            }
 
            $insert = array(
@@ -62,7 +62,7 @@ class AuserController extends AdmController {
                 'apass' => $apass,
            );
            $is = $admin->where( array('aid'=>$aid) )->save( $insert );
-            return $this->success("成功修改{$is}条数据","/Admin/Auser/index");
+            return $this->success("成功修改{$is}条数据",__MODULE__."/Auser/index");
 
 
       }
@@ -87,13 +87,13 @@ class AuserController extends AdmController {
                   array('apass','require','密码不能为空'),
                );
             if( !$admin->validate($rule)->create() ){
-                return $this->error( $admin->getError(),"/Admin/Auser/add");
+                return $this->error( $admin->getError(),__MODULE__."/Auser/add");
             }
           $where = array();
           $where['auser'] = $auser;
           $isArr = $admin->where( $where)->find();
           if( $isArr){
-              return $this->error('用户名已存在',"/Admin/Auser/add");
+              return $this->error('用户名已存在',__MODULE__."/Auser/add");
           }
 
           $insert = array(
@@ -102,9 +102,9 @@ class AuserController extends AdmController {
           );
           $aid = $admin->add( $insert );
           if( $aid){
-             return $this->success('操作成功',"/Admin/Auser/index");
+             return $this->success('操作成功',__MODULE__."/Auser/index");
            }else{
-             return $this->error('操作失败',"/Admin/Auser/add");
+             return $this->error('操作失败',__MODULE__."/Auser/add");
            }
      }
     }

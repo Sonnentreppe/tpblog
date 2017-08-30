@@ -58,7 +58,7 @@ class BlogController extends AdmController{
           array("content","require","正文不能为空"),
         );
         if( !$pageModel->validate($rule)->create()){
-          return $this->error( $pageModel->getError(),"/Admin/Blog/add");
+          return $this->error( $pageModel->getError(),__MODULE__."/Blog/add");
         }
 
         $insert = array(
@@ -75,7 +75,7 @@ class BlogController extends AdmController{
             $pageModel->add( $insert);
         }
 
-        return $this->success("操作成功","/Admin/Blog/index");
+        return $this->success("操作成功",__MODULE__."/Blog/index");
       }
 
     }
